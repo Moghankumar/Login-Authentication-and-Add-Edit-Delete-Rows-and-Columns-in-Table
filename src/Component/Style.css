@@ -1,0 +1,41 @@
+.cardbox {
+  background: #ffffff !important;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+  padding: 30px 10%;
+  margin-top: 9%;
+  height: fit-content;
+  border-radius: 15px;
+  /* box-shadow: 8px 8px 8px rgb(0 0 0 / 20%); */
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.card {
+  background: #ffffff !important;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+  padding: 30px 10%;
+  margin-top: 7%;
+  height: fit-content;
+  border-radius: 15px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.editable-cell {
+  position: relative;
+}
+
+.editable-cell-value-wrap {
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+.editable-row:hover .editable-cell-value-wrap {
+  padding: 4px 11px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+[data-theme="dark"] .editable-row:hover .editable-cell-value-wrap {
+  border: 1px solid #434343;
+}
